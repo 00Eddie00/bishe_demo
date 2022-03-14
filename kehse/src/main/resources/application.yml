@@ -1,0 +1,31 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_syt?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#    url: jdbc:mysql://39.103.210.40:3306/keshe
+    hikari:
+      username: root
+#      password: Eddie202020!
+      password: daijian
+      driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8095
+  tomcat:
+    uri-encoding: utf-8
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    default-enum-type-handler: org.apache.ibatis.type.EnumTypeHandler
+    map-underscore-to-camel-case: true
+    local-cache-scope: session
+  global-config:
+    db-config:
+      db-type: mysql
+      logic-delete-field: flag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+

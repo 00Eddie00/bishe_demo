@@ -1,0 +1,109 @@
+#body{
+    /* 整体背景图 */
+    /*background-image: url();*/
+    background-size:100%;
+
+}
+
+#top{
+    font-size: 50px;
+    font-family: FangSong ;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    text-align:center;
+    top:10px;
+    border-style:solid;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px
+}
+
+#logo{
+    /* logo图片地址 */
+    background-image: url(static/images/backMain.jpg);
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-size:100%;
+    left:0
+}
+
+#welcome{
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    left:800px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    color: skyblue;
+}
+
+#navigation{
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    top: 70px;
+    left: 0px;
+    border-style:solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 3px
+}
+.link{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    line-height: 250px;
+    font-size: 30px;
+    position: absolute;
+    border-style:solid;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+
+.link:hover{
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#hot{
+    background-image: url(https://z1.muscache.cn/im/pictures/a6473db8-8036-424d-97fd-afdbf78464dc.jpg);
+    top:0%;
+}
+#top10{
+    background-image: url(https://z1.muscache.cn/im/pictures/d13b30a9-6b1b-4e40-af41-068c5700634d.jpg);
+    top:25%;
+}
+#price{
+    background-image: url(https://z1.muscache.cn/im/pictures/a8b104b5-715d-40ff-aeff-da3155e8631d.jpg);
+    top:50%;
+}
+
+#keyword{
+    background-image: url(https://z1.muscache.cn/im/pictures/miso/Hosting-43854394/original/227ea952-d5d7-4928-94e9-b4a98962c04b.jpeg);
+    top:75%
+}
+#mainimg{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    top: 70px;
+    left: 15%;
+    margin: 3px;
+    border-style:solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 3px;
+    background-image: url(https://z1.muscache.cn/im/pictures/miso/Hosting-38609253/original/cfe63775-7139-435e-acc8-b27e68198b59.jpeg?aki_policy=large);
+    background-size:100%;
+}

@@ -1,0 +1,45 @@
+#body {
+    background-image: url(https://z1.muscache.cn/pictures/carson/carson-1623821151821/original/e11264a4-009f-4ce2-bc13-dec55c2e3e5b.jpg);
+    background-size: 100%;
+
+}
+
+#max {
+    height: 1000px;
+    width: 1600px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 150px;
+    background-color: rgba(255,255,255,0.3);
+    border-style: double;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#top {
+    font-size: 50px;
+    font-family: FangSong;
+    height: 50px;
+    width: 1600px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+}
+
+#echarts {
+    height: 600px;
+    width: 1400px;
+    position: absolute;
+    left: 100px;
+    top: 100px
+}
+
+
+#home {
+    position: absolute;
+    bottom: 50px;
+    right: 50px
+}
